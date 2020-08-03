@@ -13,4 +13,4 @@ COPY . /usr/src/app
 
 EXPOSE 9100
 
-CMD grunt server
+CMD ["npm", "run", "start"]
